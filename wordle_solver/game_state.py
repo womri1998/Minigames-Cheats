@@ -20,6 +20,9 @@ class Row(BaseModel):
     def print(self):
         print("".join(f"{COLOR_MAP[cell.color]} {cell.letter} {RESET}" for cell in self.cells))
 
+    def is_correct(self) -> bool:
+        return all(cell.color == "green" for cell in self.cells)
+
 
 class Board(BaseModel):
     rows: list[Row]
@@ -27,6 +30,9 @@ class Board(BaseModel):
     def print(self):
         for row in self.rows:
             row.print()
+
+    def is_correct(self) -> bool:
+        return self.rows[-1].is_correct()
 
 
 class GameBoard(BaseModel):

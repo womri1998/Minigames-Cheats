@@ -1,9 +1,8 @@
 from collections import defaultdict
-from parsers.game_state import Row, Board
+from wordle_solver.game_state import Row, Board
 
 
-
-class WordleSolver:
+class BoardSolver:
     def __init__(self, all_words: set[str]):
         self.all_words = all_words
         self.relevant_words = list(all_words)
