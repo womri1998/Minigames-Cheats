@@ -60,7 +60,7 @@ def get_best_guess(game_board: GameBoard, solver: BoardSolver) -> str:
 def play_wordle():
     driver = init_driver()
     input_box = find_input_box(driver)
-    all_words = MerriamWebsterFetcher.get_saved_words()
+    all_words = EnglishFetcher(5).get_filtered_words()
     solver = BoardSolver(all_words)
     game_board = get_current_game_board(driver)
     while True:

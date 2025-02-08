@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a66ce016-7c08-48a6-84b1-00f242260e21" name="Changes" comment="Sort of working for octordle :)">
-      <change afterPath="$PROJECT_DIR$/automatic_britannica_solver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsers/game_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/game_state.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsers/octordle_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/brintannica_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordle_solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/board_solver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordle_solver/parsers/automatic_britannica_solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/wordle_solver/parsers/automatic_britannica_solver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordle_solver/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wordle_solver/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordle_solver/word_fetchers/words_alpha_fetcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/wordle_solver/word_fetchers/words_alpha_fetcher.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +40,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/womri1998/WordleSolver.git&quot;,
-    &quot;accountId&quot;: &quot;8f68b212-72e2-4d9f-9553-9391daba5610&quot;
+    &quot;accountId&quot;: &quot;44908305-e785-4c13-a41e-722d1220d60a&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -56,23 +52,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.automatic_britannica_solver (1).executor": "Run",
-    "Python.automatic_wordle_solver.executor": "Run",
-    "Python.run.executor": "Debug",
-    "Python.wordle_solver.executor": "Debug",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "dev",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.automatic_britannica_solver (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.automatic_wordle_solver.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.wordle_solver.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Omri Waisbart\PycharmProjects\WordleSolver" />
@@ -274,8 +271,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PY-243.23654.177" />
-        <option value="bundled-python-sdk-91d3a02ef49d-43b77aa2d136-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.23654.177" />
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
